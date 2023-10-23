@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url('images\\tropical-green-leaves-background.jpg');
+  background-size: 100%;
+  background-position: 100%;
+  background-attachment: fixed;
+  color: violet;
+  height: 100vh;
+  width: 100%;
+  font-family: 'Paytone One', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes animationTxt {
+  from { color: rgb(250, 243, 250); }
+  to { color: violet;}
+}
+
+.aprt {
+  width: 660px;
+  height: 53vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  gap: 20px;
+}
+
+.nome {
+  display: block;
+  height: 400px;
+  line-height: 121px;
+}
+
+.nomeTxt {
+  font-size: 164px;
+  animation: animationTxt 2s;
+  cursor:default;
+}
+
+.texto1 {
+  font-size: 60px;
+  line-height: 56px;
+  animation: animationTxt 3s;
+}
+
+.janela {
+  height: 105px;
+  width: 105px;
+  background-color: rgba(0, 255, 255, 0.575);
+}
+
+.janela:hover {
+  background-color: transparent;
+}
+
+.footer{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 50px;
+}
+
+img {
+  max-width: 40px;
+}
+
+
+
