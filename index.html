@@ -11,29 +11,45 @@
   </head>
 <body>
 
-<section class="contet">
-  <div class="aprt">
-    <div class="text">
-      <p class="texto1">Olá, sou</p>
-      <div class="janela 1"></div>
-      <div class="janela 2"></div>
-      <div class="janela 3"></div>
+<section class="tela1">
+  <section class="contet">
+    <div class="aprt">
+      <div class="text">
+        <p class="texto1">Olá, sou</p>
+        <div class="janela 1"></div>
+        <div class="janela 2"></div>
+        <div class="janela 3"></div>
+      </div>
+      <div class="nome"><p class="nomeTxt">SAMUEL SEGUINS</p></div>
     </div>
-    <div class="nome"><p class="nomeTxt">SAMUEL SEGUINS</p></div>
-  </div>
+  </section>
+
+  <section class="footer">
+    <div class="instagram">
+      <a href="https://www.instagram.com/samuel_seguins/"><img src="images\instagram.png"></a>
+    </div>
+    <div class="github">
+      <a href="https://github.com/samseg01"><img src="images\github.png"></a>
+    </div>
+    <div class="linkedin">
+      <a href="https://www.linkedin.com/in/samuel-seguins/"><img src="images\linkedin.png"></a>
+    </div>
+  </section>
+  <button type="button" id="down-button"></button>
+
 </section>
 
-<section class="footer">
-  <div class="instagram">
-    <a href="https://www.instagram.com/samuel_seguins/"><img src="images\instagram.png"></a>
-  </div>
-  <div class="github">
-    <a href="https://github.com/samseg01"><img src="images\github.png"></a>
-  </div>
-  <div class="linkedin">
-    <a href="https://www.linkedin.com/in/samuel-seguins/"><img src="images\linkedin.png"></a>
-  </div>
-</section>
+<section class="tela2"></section>
 
+<script>
+  //const home = document.querySelector(".tela1");
+  const cont = document.querySelector(".tela2");
+  const btn = document.getElementById("down-button");
+
+  btn.addEventListener('click', function(){
+    cont.style.display = 'block';
+  })
+
+</script>
 </body>
 </html>
