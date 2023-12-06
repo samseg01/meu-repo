@@ -88,8 +88,8 @@ img {
 }
 
 #down-button{
-  position: relative;
-  bottom: 24px;
+  position: absolute;
+  bottom: 20px;
   background-color: transparent;
   background-image: url('images/animation-down.gif');
   background-size: 150%;
