@@ -7,7 +7,7 @@ window.onscroll = function() {
 
     let top = pointer.style.top;
     let topInt = parseInt(top.split('.'))
-    console.log(top, topInt)
+    // console.log(top, topInt)
 
     if(topInt <= 94){
         pointer.style.top = ((scrollTop/1290)*88.3+4.6) + '%'
